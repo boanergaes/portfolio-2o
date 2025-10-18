@@ -1,10 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Agdasima:wght@400;700&family=Alan+Sans:wght@300..900&family=Alata&family=Alfa+Slab+One&family=Anton&family=Average&family=Catamaran:wght@100..900&family=Geist:wght@100..900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Jaro:opsz@6..72&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Michroma&family=Outfit:wght@100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Share+Tech+Mono&family=Uncial+Antiqua&family=VT323&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --main-font-color: white;
+    --main-dim-font-color: hsl(0, 0%, 76%);
+    --body-bg-color: hsl(12, 10%, 12%);
+
+    --main-font-family: 'Outfit', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root {
-    --main-font-color: black;
-    --main-dim-font-color: hsl(0, 0%, 30%);
+body {
+    background-color: var(--body-bg-color);
+    color: var(--main-font-color);
+    padding: 0 3rem;
+    font-family: var(--main-font-family);
 }

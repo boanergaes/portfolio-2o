@@ -1,0 +1,62 @@
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.5rem 1rem;
+    padding-left: 4rem;
+    /* padding-right: 5rem; */
+}
+
+.name {
+    font-size: 2.3rem;
+    font-weight: 500;
+    /* color: var(--main-dim-font-color); */
+    opacity: .87;
+}
+
+.social {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icon {
+    width: 1.3rem;
+    cursor: pointer;
+    opacity: .85;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.4rem;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 5rem;
+    line-height: 5.4rem;
+    letter-spacing: .1rem;
+}
+
+.about-cta-btn {
+    color: var(--main-font-color);
+    background-color: transparent;
+    border: 1px solid var(--main-font-color);
+    border-radius: 2rem;
+    padding: 1rem 5rem;
+    font-family: var(--main-font-family);
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 200ms;
+
+    &:hover {
+        background-color: var(--main-font-color);
+        color: var(--body-bg-color);
+    }
+}

@@ -1,0 +1,66 @@
+.home-main-container {
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+
+.home-3d-display {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    perspective: 1200px;
+    position: relative;
+    z-index: -1;
+}
+
+.skill-circle-container {
+    /* background-color: yellow; */
+    transform: rotateX(44deg) rotateY(36deg);
+    position: absolute;
+    z-index: 1;
+}
+
+.skill-circle {
+    width: 40rem;
+    height: 30rem;
+    /* border: 1px solid var(--main-dim-font-color); */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    /* margin: auto; */
+    /* position: relative; */
+    /* transform: rotateX(44deg) rotateY(36deg);
+    position: absolute;
+    z-index: 1; */
+    animation: spin 30s linear infinite;
+}
+
+.my-img {
+    position: absolute;
+    margin-right: 5rem;
+    top: .5rem;
+    /* opacity: .8; */
+    width: 460px;
+}
+
+@keyframes spin {
+    from {
+        rotate: 0deg;
+    }
+    to {
+        rotate: 360deg;
+    }
+}
+
+.skill-blade {
+    /* background-color: hsl(0, 0%, 20%); */
+    /* animation: spin 24s linear infinite; */
+    width: 105%;
+    position: absolute;
+}
+
+.skill-logos {
+    height: 2.4rem;
+    width: auto;
+}
+
