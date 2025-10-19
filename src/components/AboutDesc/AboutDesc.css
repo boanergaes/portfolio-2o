@@ -1,0 +1,14 @@
+.discription-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    /* text-align: center; */
+}
+
+.about-p {
+    text-align: justify;
+    line-height: 1.3rem;
+    letter-spacing: .04rem;
+    font-size: 1rem;
+    max-width: 65rem;
+}

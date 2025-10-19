@@ -3,6 +3,8 @@ aside {
     flex-direction: column;
     justify-content: space-between;
     padding: 3.5rem 0;
+    height: 100vh;
+    background-color: transparent;
 }
 
 .nav-bar {
@@ -16,11 +18,15 @@ aside {
         text-decoration: none;
         /* color: var(--main-dim-font-color); */
         transition: 200ms;
-
-        &:hover {
-            color: var(--main-font-color);
-        }
+ 
     }
+    & a:hover {
+        color: white;
+    }
+}
+
+.nav-link:hover {
+    color: var(--main-font-color);
 }
 
 .nav-slider-line {

@@ -1,8 +1,8 @@
 .home-container {
     display: grid;
-    grid-template-columns: 9rem 1.3fr 1px 1fr;
+    grid-template-columns: 1.3fr 1px 1fr;
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* padding: 0 3rem; */
 }
 

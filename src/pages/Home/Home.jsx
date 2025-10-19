@@ -6,7 +6,6 @@ import HomeHero from '../../components/HomeHero/HomeHero'
 export default function Home() {
     return (
         <div className="home-container">
-            <NavBar />
             <HomeMain />
             <hr className='divider' />
             <HomeHero />
