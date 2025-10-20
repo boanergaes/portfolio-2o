@@ -3,12 +3,16 @@
     flex-direction: column;
     gap: 1.6rem;
     /* text-align: center; */
+    & * {
+        animation: showUp 1.6s;
+    }
 }
 
 .about-p {
-    text-align: justify;
+    /* text-align: justify; */
     line-height: 1.3rem;
     letter-spacing: .04rem;
     font-size: 1rem;
     max-width: 65rem;
+    /* animation-delay: .8s; */
 }

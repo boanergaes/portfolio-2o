@@ -1,6 +1,7 @@
 import './HomeHero.css'
 
 import { social_links } from "../../storage"
+import { Link } from 'react-router-dom'
 
 export default function HomeHero() {
     const socialLinks = social_links.map(({id, link, icon}) => {
@@ -19,7 +20,7 @@ export default function HomeHero() {
             <div className="hero">
                 <h1 className='hero-title'>SOFTWARE ENGINEER</h1>
                 <p>Currently studying at Addis Ababa University / College of Technology and Built Environment.</p>
-                <button className='about-cta-btn'>Learn About Me</button>
+                <Link to={'/About'} className='about-cta-btn'>Learn About Me</Link>
             </div>
         </div>
     )

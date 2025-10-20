@@ -6,6 +6,10 @@
     padding: 3.5rem 1rem;
     padding-left: 4rem;
     /* padding-right: 5rem; */
+
+    & * {
+        animation: showUp 1.6s;
+    }
 }
 
 .name {
@@ -52,6 +56,7 @@
     padding: 1rem 5rem;
     font-family: var(--main-font-family);
     font-size: 1.1rem;
+    text-decoration: none;
     cursor: pointer;
     transition: 200ms;
 

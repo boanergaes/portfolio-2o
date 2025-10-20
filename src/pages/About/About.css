@@ -1,6 +1,8 @@
 .about-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 4rem;
+    /* align-items: center; */
     padding: 3.5rem 2.8rem;
+    margin-left: 9rem;
 }

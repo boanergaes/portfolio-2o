@@ -33,8 +33,9 @@ export const social_links = [
     }
 ]
 
-const education = [
+export const education = [
     {
+        id: 0,
         institute_name: 'Addis Ababa University',
         institute_logo: '/aau-logo.png',
         institute_link: 'https://www.aau.edu.et/',
@@ -44,6 +45,7 @@ const education = [
         skills: ['DSA', 'OOP', 'Python', 'C++', 'Java', 'Time Management']
     },
     {
+        id: 1,
         institute_name: 'Nexus Tutorials',
         institute_logo: '/nexus-logo.jpg',
         institute_link: 'https://nexustutorial.vercel.app/',
@@ -53,15 +55,17 @@ const education = [
         skills: ['HTML', 'CSS', 'JavaScript', 'Figma', 'Webpack', 'Git']
     },
     {
+        id: 2,
         institute_name: 'Nexus Tutorials',
         institute_logo: '/nexus-logo.jpg',
         institute_link: '',
         lesson_title: 'Advanced Front-End',
-        description: '',
-        credential: '',
+        description: 'Helped me step up my Front-End development skills with project based learning. Introduced me to the React library, tailwind, TypeScript and many more tools and frameworks.',
+        credential: null,
         skills: ['React', 'Tailwind', 'TypeScript']
     },
     {
+        id: 3,
         institute_name: 'Nexus Tutorials',
         institute_logo: '/nexus-logo.jpg',
         institute_link: 'https://nexustutorial.vercel.app/',
@@ -71,6 +75,7 @@ const education = [
         skills: ['Python', 'DSA', 'Leetcode', 'Competitive Programming']
     },
     {
+        id: 4,
         institute_name: 'Udacity | 5 Million Ethiopian Coders Initiative',
         institute_logo: '/udacity-logo.png',
         institute_link: 'https://ethiocoders.et/',
@@ -80,12 +85,14 @@ const education = [
         skills: ['HTML', 'CSS', 'JavaScript']
     },
     {
+        id: 5,
         institute_name: 'The Odin Project',
         institute_logo: '/top-logo.webp',
         institute_link: 'https://www.theodinproject.com/',
-        lesson_title: 'Web Development Fundamentals | Front-End',
+        lesson_title: 'Web Development Fundamentals',
         description: "Learned how to use Git and GitHub, how to use the CLI, and basics of Linux. And also HTML, CSS, JavaScript. Their project based style helped me practice more and the resources they provide helped understand more about the concept.",
         credential: null,
         skills: ['Linux', 'Git', 'HTML', 'CSS', 'JavaScript']
     },
 ]
+

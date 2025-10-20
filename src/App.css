@@ -4,8 +4,20 @@
     --main-font-color: white;
     --main-dim-font-color: hsl(0, 0%, 76%);
     --body-bg-color: hsl(12, 10%, 12%);
+    --low-opa-bg-color: hsla(12, 10%, 12%, .94);
 
     --main-font-family: 'Outfit', sans-serif;
+}
+
+@keyframes showUp {
+    from {
+        opacity: 0;
+        transform: translateY(1rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 * {
@@ -22,7 +34,7 @@ body {
 
 #root {
     display: grid;
-    grid-template-columns: 9rem 1fr;
+    /* grid-template-columns: 9rem 1fr; */
     padding: 0 3rem;
     background-color: transparent;
     overflow: hidden;

@@ -1,0 +1,15 @@
+.education-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    & h1 {
+        animation: showUp 1.6s;
+    }
+}
+
+.education-display {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}

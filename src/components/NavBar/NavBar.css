@@ -5,6 +5,7 @@ aside {
     padding: 3.5rem 0;
     height: 100vh;
     background-color: transparent;
+    position: fixed;
 }
 
 .nav-bar {
@@ -74,4 +75,8 @@ aside {
     justify-content: space-between;
     align-items: center;
     width: 8rem;
+}
+
+.portfolio {
+    font-size: 1.6rem;
 }
